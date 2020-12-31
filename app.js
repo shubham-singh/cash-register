@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         clear();
         let balance = cash.value - bill.value;
         const output = document.createElement('h2');
-        output.innerHTML = 'Balance: ' + balance;
+        output.innerHTML = 'Balance: ₹' + balance;
         document.body.appendChild(output);
         calChange(balance);
     });
@@ -54,7 +54,7 @@ function calChange(balance) {
             let note = row.insertCell(0);
             let x = row.insertCell(1)
             let times = row.insertCell(2);
-            note.innerHTML = key[i];
+            note.innerHTML = "₹" + key[i];
             x.innerHTML = 'x';
             times.innerHTML = currency[key[i]];
         }

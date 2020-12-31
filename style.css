@@ -2,8 +2,15 @@
     --color: #DBEAFE;
 }
 
+body {
+    margin: 0;
+    background-color: var(--color);
+    text-align: center;
+}
+
 h1 {
     font-size: 4rem;
+    margin-top: 3vh;
     margin-bottom: 7vh;
 }
 
@@ -16,10 +23,6 @@ input {
     text-align: center;
 }
 
-body {
-    background-color: var(--color);
-    text-align: center;
-}
 
 #cash {
     visibility: hidden;
