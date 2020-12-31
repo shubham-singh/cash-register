@@ -1,0 +1,34 @@
+:root {
+    --color: #DBEAFE;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 7vh;
+}
+
+input {
+    display: block;
+    margin: 14px auto;
+    padding: 0.8rem 1.4rem;
+    border-radius: 1.5rem;
+    border-style: none;
+    text-align: center;
+}
+
+body {
+    background-color: var(--color);
+    text-align: center;
+}
+
+#cash {
+    visibility: hidden;
+}
+
+table {
+    margin: 4vh auto;
+    font-size: 1.5rem;
+}
+td {
+    padding: 0.2rem 2rem;
+}
