@@ -63,9 +63,12 @@ function calChange(balance) {
 }
 
 function clear() {
-    if(document.querySelector('h2') !== null && document.querySelector('table') !== null)
+    if(document.querySelector('h2') !== null)
     {
         document.querySelector('h2').remove();
+    }
+    if (document.querySelector('table') !== null)
+    {
         document.querySelector('table').remove();
     }
 }
