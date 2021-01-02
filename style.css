@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
 :root {
     --color: #DBEAFE;
 }
 
 body {
     margin: 0;
-    background-color: var(--color);
+    background: linear-gradient(#e66465, #9198e5);
+    background-attachment: fixed;
     text-align: center;
 }
 
 h1 {
-    font-size: 4rem;
+    font-family: 'Redressed', cursive;
+    padding: 1rem;
+    font-size: 5rem;
     margin-top: 3vh;
     margin-bottom: 7vh;
 }
@@ -21,6 +26,7 @@ input {
     border-radius: 1.5rem;
     border-style: none;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 #cash {
@@ -37,5 +43,7 @@ td {
 }
 
 #button, #reset {
+    width: 8rem;
+    font-size: unset;
     cursor: pointer;
 }
